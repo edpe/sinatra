@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'shotgun'
-# $ shotgun app.rb -p 4567
+# shotgun app.rb -p 4567
 
 
 
@@ -19,7 +19,5 @@ get '/tomato' do
 end
 
 get '/cat' do
-  "<div>
-  <img src='http://bit.ly/1eze8aE' style='border: 3px dashed red'>
-  </div>"
+  erb(:index)
 end
