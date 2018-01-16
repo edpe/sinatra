@@ -29,6 +29,5 @@ post '/named-cat' do
 end
 
 get '/cat-form' do
-  @name = params[:name]
   erb(:catform)
 end
