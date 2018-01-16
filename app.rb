@@ -2,8 +2,6 @@ require 'sinatra'
 require 'shotgun'
 # shotgun app.rb -p 4567
 
-
-
 set :session_secret, 'super secret'
 
 get '/' do
